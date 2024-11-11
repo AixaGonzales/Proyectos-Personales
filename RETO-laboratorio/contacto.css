@@ -1,0 +1,238 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #af1065, #e099d1);
+}
+
+  
+/*  fin encabezado */
+.encabezado {
+    background-color: #333;
+    color: rgb(240, 102, 178);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kittyImg {
+    align-items: center;
+    padding: 10px;
+    border-radius: 90px;
+    width: 80px; 
+    height: 80px; 
+}
+
+.botones {
+    list-style: none;
+    padding: 0;
+}
+.seccion {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+/*  fin encabezado */
+
+
+
+
+
+
+
+
+
+.seccion-contacto {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .seccion-contacto h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .seccion-contacto p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .formulario-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .campo-formulario {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .etiqueta-formulario {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-formulario,
+  .textarea-formulario {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .textarea-formulario {
+    resize: vertical;
+  }
+  
+  .boton-enviar {
+    background-color: #af1065;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .boton-enviar:hover {
+    background-color: #e099d1;
+  }
+  
+
+  @media (max-width: 768px) {
+    .formulario-contacto {
+      padding: 20px;
+    }
+  
+    .input-formulario,
+    .textarea-formulario {
+      font-size: 0.9rem;
+    }
+  
+    .boton-enviar {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Estilos para la sección de redes sociales */
+.seccion-redes-sociales {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .seccion-redes-sociales h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .contenedor-redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .icono-red-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s;
+  }
+  
+  .icono-red-social:hover {
+    transform: scale(1.1); /* Efecto de aumento al pasar el ratón */
+  }
+  
+  .imagen-icono {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%; /* Hace que los iconos tengan bordes redondeados */
+  }
+  
+  /* Responsividad para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .contenedor-redes {
+      flex-direction: column; /* Los iconos se apilan verticalmente en pantallas pequeñas */
+      align-items: center;
+    }
+  
+    .icono-red-social {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+
+
+
+
+
+
+  /* Estilos para el footer */
+footer {
+    background-color: #030303;
+    color: #ec5ed5;
+    padding: 30px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  
+  .contenedor-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: #e099d1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .enlaces-sociales {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    footer p {
+      font-size: 12px;
+    }
+  
+    .enlaces-sociales a {
+      font-size: 12px;
+    }
+  }
+  /* fin  footer */
